@@ -1,0 +1,77 @@
+@font-face {
+    font-family: macdinh;
+    src: url(UVNBaiSau_R.TTF);
+}
+* {
+    padding:0;
+    margin: 0;
+    font-family: macdinh;
+}
+a {
+    color: #99CCFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.block {
+    color:  white;
+    display: block;
+    font-weight: normal;
+    transition: 0.3s;
+}
+a.block:hover {
+    background: #2e2e2e;
+    border-left: 9px solid #669999;
+}
+body {
+    background:rgb(24, 24, 24) ;
+    color:  #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+.contact > .block {
+    border-top: 4px solid black;
+}
+.info > p {
+    font-size: 17px;
+}
+header > .content, .contact > .block > .content {
+    display: flex;
+    max-width: 705px;
+    margin: auto;
+    align-items: center;
+    padding: 19px 0;
+}
+header > .content> .logo,.contact > .block > .content > .logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-right: 24px;
+}
+
+.contact > .block > .content {
+    max-width: 708px;
+    margin:  auto;
+}
+.contact > .content > .block{
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.contact > .block > .content > .logo {
+    width: 70px;
+    height: 70px;
+    margin-right: 13px;
+}
+
+footer {
+    text-align: center;
+    padding: 22px 0;
+    margin-top: 10px;
+}
+footer > h2 {
+    font-size: 35px;
+}
