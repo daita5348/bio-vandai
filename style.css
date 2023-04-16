@@ -14,7 +14,7 @@ a {
     text-decoration: none;
 }
 a.block {
-    color:  white;
+    color:  black;
     display: block;
     font-weight: normal;
     transition: 0.3s;
@@ -24,7 +24,7 @@ a.block:hover {
     border-left: 9px solid #669999;
 }
 body {
-    background:rgb(24, 24, 24) ;
+    background:rgb(255, 255, 255) ;
     color:  #fff;
     display: flex;
     flex-direction: column;
